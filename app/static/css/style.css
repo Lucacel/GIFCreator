@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    color: cornsilk;
+}
+.header{
+    text-align: center;
+}
+.row{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form-col-25{
+    float: left;
+    width: 50%;
+}
+.form-col-25 label{
+    float: right;
+    margin-right: 5%;
+}
+.form-col-75{
+    float: left;
+    width: 50%;
+}
+image{
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 33%; height: 33%;
+    border: solid 3px cornsilk;
+    border-radius: 2px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GIFCreator</title>
+    <link type="text/css" rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+<div class="header">
+    <h1>Hi! and welcome to GIFCreator</h1>
+    <h2>"a place for your GIF skills"</h2>
+    <hr>
+</div>
+<div class="content">
+    <div class="selection_form">
+        <form method="post" action="/load_images" enctype="multipart/form-data">
+            <div class="form-col-25">
+                <div class="row">
+                    <label for="selected_images">Select images: </label>
+                </div>
+            </div>
+            <div class="form-col-75">
+                <div class="row">
+                    <input name="images[]" id="selected_images" type="file" multiple>
+                </div>
+                <div class="row">
+                    <input type="submit">
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+</body>
+</html>
