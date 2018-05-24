@@ -31,7 +31,7 @@ def load_images():
         image = np.asarray(image)
         images.append(image)
 
-    imageio.mimsave('static/gif_to_display.gif', images, format='GIF', duration=1)
+    imageio.mimsave('static/gif_to_display.gif', images, format='GIF', duration=0.25)
 
     return render_template('Result.html')
 
